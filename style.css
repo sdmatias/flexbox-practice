@@ -1,0 +1,15 @@
+/* ==== Reset y variables base ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #f9f9f9;
+    --color-text: #333;
+    --color-accent: deepskyblue;
+    --card-radius: 8px;
+    --card-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    --transition-fast: 0.3s ease;
+}
