@@ -112,6 +112,57 @@ body {
     background: #007acc;
 }
 
+/* ==== Seccion destacados ==== */
+.destacados {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.destacados h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--color-accent);
+}
+
+.destacados-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.destacado-card {
+    background: #fff;
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.destacado-card:hover {
+    transform: translateY(-5px);
+}
+
+.destacado-card svg {
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+}
+
+/* ==== Media query para layout en fila ==== */
+@media (min-width: 768px) {
+    .destacados-grid {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .destacado-card {
+        width: 300px;
+    }
+}
+
 /* ==== Footer ==== */
 footer {
     text-align: center;
