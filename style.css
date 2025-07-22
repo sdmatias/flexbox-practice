@@ -13,3 +13,12 @@
     --card-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     --transition-fast: 0.3s ease;
 }
+
+/* ==== Layout base ==== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    padding: 1rem;
+    padding-top: 80px;
+}
