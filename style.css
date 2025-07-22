@@ -112,3 +112,11 @@ body {
 .card button:hover {
     background: #007acc;
 }
+
+/* ==== Footer ==== */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
